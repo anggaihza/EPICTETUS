@@ -6,7 +6,7 @@ import {SectionHeader} from "@/components/SectionHeader";
 import Container from "@/components/Container";
 import Head from "next/head";
 
-export const Posts = () => {
+const Posts = () => {
   const [posts, setPosts] = useState(mockPost);
 
   return (
@@ -39,3 +39,5 @@ export const Posts = () => {
     </>
   );
 };
+
+export default Posts;
